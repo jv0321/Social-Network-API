@@ -1,44 +1,61 @@
-# Social-Network-API
+## Table of Contents
 
-# GitHub license
+- [Description](#description)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [How to Contribute](#how-to-contribute)
+- [Questions](#questions)
 
-# Table of Contents
-Description
-Features
-Installation
+---
+
+## Description
+
+This API provides the essential backend functionality required for a social media platform, including:
+
+- **User Management**: Manage user accounts and relationships.
+- **Thoughts and Reactions**: CRUD operations for user-generated content.
+- **Relational Data**: Manage friend lists and associations between users and their thoughts.
+
+---
+
+## Features
+
+- **CRUD Operations**:
+  - Users: Create, Read, Update, Delete.
+  - Thoughts: Create, Read, Update, Delete.
+  - Reactions: Create, Read, Update, Delete.
+- **Relationship Management**:
+  - Friend lists.
+  - Thoughts created by users.
+- **JSON Responses**:
+  - Easily integrable with frontend applications.
+
+---
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/jv0321/Social-Network-API.git
+
+2.Navigate to the project directory:
+   ```bash
+cd Social-Network-API
+3 .Install dependencies:
+   ```bash
+cd Social-Network-API
+
+   ```bash
+npm install
 Usage
-License
-How to Contribute
-Questions
-
-
-# Description
-This Social Media Network API is designed to manage backend routes for a social media platform. The API allows for storing and managing user data, thoughts, reactions, and relational data between users such as friend lists and user thoughts. Built using modern web technologies, this API provides a robust backend service for social media applications.
-
-
-# Features
-CRUD operations for user data
-CRUD operations for thoughts
-CRUD operations for reactions
-Relationship management (friend lists, thoughts by a user)
-JSON responses for easy integration with frontend applications
-
-# Installation
-Clone the repository: git clone <repository_url>
-Install dependencies: Within the terminal, run npm install
-
-# Usage
-Start the application: In the terminal, run npm start
-Use a tool like Postman or Insomnia to interact with the API endpoints.
-Use the API to create, read, update, and delete user data, thoughts, reactions, and manage relationships between users.
-
-# License
-GitHub license
-
-This project is licensed under the MIT License. For more information on the license, please click the Link.
-
-# How to Contribute
-Feel free to contribute to the project. If you would like more information, please check out the Contributor Covenant.
-
-# Questions
-For more information, check out my GitHub 👋
+Start the application:
+```bash
+Copy code
+npm start
+Use tools like Postman or Insomnia to interact with the API endpoints.
+Use the API for:
+Creating, reading, updating, and deleting user data.
+Managing thoughts and reactions.
+Managing relationships between users, including friend lists.
